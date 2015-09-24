@@ -77,9 +77,14 @@ Categories=Development;IDE;Java;
 
 $ cd /opt/android-sdk/tools
 
-$ sudo $ ./android #运行Android SDK Manager,下载platfor-tools和bulid-tools
+$ sudo  ./android #运行Android SDK Manager,下载platfor-tools和bulid-tools
 
 $ sudo chmod 777 android-sdk	#修改所有文件的权限,使之可以运行
+
+#64位的ubuntu 13.10及以上版本需要安装32位相关的库
+$ sudo dpkg --add-architecture i386
+$ sudo apt-get update
+$ sudo apt-get install libncurses5:i386 libstdc++6:i386 zlib1g:i386
 
 $ sudo vi /ect/profile  
 #添加如下内容

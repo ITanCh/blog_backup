@@ -52,9 +52,9 @@ tag_map:
 ## 2: Enable pagination
 ## 1: Disable pagination
 ## 0: Fully Disable
-archive: 1
-category: 1
-tag: 1
+archive: 2
+category: 2
+tag: 2
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
