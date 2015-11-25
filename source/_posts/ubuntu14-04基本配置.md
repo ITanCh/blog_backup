@@ -2,14 +2,14 @@ title: ubuntu14.04基本配置
 date: 2015-08-06 11:59:57
 tags: [ubuntu,技术]
 ---
-1.更新：
+### 更新：
 
 ```
 $ sudo apt-get update  
 $ sudo apt-get upgrade
 ```
 
-2.安装搜狗输入法：
+### 安装搜狗输入法：
 
 ```
 $ sudo add-apt-repository ppa:fcitx-team/nightly	#添加fcitx源
@@ -18,7 +18,7 @@ $ sudo apt-get install fcitx
 ```
 <!--more-->
 
-3.安装JDK：  
+### 安装JDK：  
 
 ```
 #下载最近的jdk包  
@@ -42,7 +42,7 @@ $ sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk/bin/j
 $ sudo update-alternatives --config java  
 $ java -version	#测试  
 ```
-4.安装Eclispe  
+### 安装Eclispe  
 
 ```
 #下载最新的elipse包  
@@ -68,7 +68,7 @@ Terminal=false
 Categories=Development;IDE;Java;  
 ```
 
-5.配置Android SDK:  
+### 配置Android SDK:  
 
 ```  
 #从官网下载最新的SDK
@@ -94,7 +94,7 @@ $ source /ect/profile
 
 ```
 
-6.Firefox Flash插件
+### Firefox Flash插件
 
 ```
 #下载最新的Flash Player
@@ -104,3 +104,9 @@ $ tar -zxvf flash.tar.gz
 
 $ sudo cp libflashplayer.so /usr/lib/mozilla/plugins
 ```
+
+### 常用命令  
+1. 取消某个软件(tomcat)开机自启动。
+{% codeblock lang:sh %}
+sudo update-rc.d tomcat disable
+{% endcodeblock %}
