@@ -1,6 +1,6 @@
 title: Torque安装笔记(多ubuntu节点)
 date: 2015-08-06 11:59:57
-tags: [Torque,技术,安装,ubuntu]
+tags: [Torque,技术,ubuntu]
 ---
 1.实验系统ubuntu14.04。更新系统软件，防止相关软件版本过低  
 

@@ -1,6 +1,6 @@
 title: MESOS and MARATHON安装
 date: 2015-11-16 09:40:40
-tags: [MESOS,技术,安装,ubuntu]
+tags: [MESOS,技术,ubuntu]
 ---
 ### 基本环境  
 系统环境：ubuntu14.04

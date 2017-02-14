@@ -1,6 +1,6 @@
 title: MooseFS安装
 date: 2015-09-22 16:21:51
-tags: [MooseFS,技术,安装,ubuntu]
+tags: [MooseFS,技术,ubuntu]
 ---
 > MooseFS is a Fault tolerant, Highly available, Highly performing, Scaling-out, Network distributed file system. It spreads data over several physical commodity servers, which are visible to the user as one resource. For standard file operations MooseFS acts like any other Unix-like file system:
 		1.A hierarchical structure (directory tree)

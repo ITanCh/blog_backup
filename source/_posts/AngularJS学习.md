@@ -1,6 +1,6 @@
 title: AngularJS--SB Admin
 date: 2016-01-15 10:56:03
-tags: [AngularJS,SB Admin,web,Yeoman,JavaScript]
+tags: [技术,AngularJS,Yeoman,JavaScript]
 ---
 从SB Admin开始学习AngularJS!
 
