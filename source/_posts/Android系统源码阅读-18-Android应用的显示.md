@@ -1,4 +1,4 @@
-title: Android系统源码阅读(18)Android应用的显示
+title: Android系统源码阅读(18):Android应用的显示
 date: 2017-02-14 15:04:48
 tags: [Android,技术]
 ---
