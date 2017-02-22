@@ -87,3 +87,9 @@ feed:
 
 sitemap:
     path: sitemap.xml
+
+#archive_generator:
+#    per_page: 0
+#    yearly: false
+#    monthly: false
+#    daily: false
