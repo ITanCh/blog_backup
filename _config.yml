@@ -71,7 +71,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: yilia
+theme: apollo
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -88,8 +88,8 @@ feed:
 sitemap:
     path: sitemap.xml
 
-#archive_generator:
-#    per_page: 0
-#    yearly: false
-#    monthly: false
-#    daily: false
+archive_generator:
+    per_page: 0
+    yearly: false
+    monthly: false
+    daily: false
