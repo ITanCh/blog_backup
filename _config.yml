@@ -4,7 +4,7 @@
 
 # Site
 title: Tianchi's Blog
-subtitle: 阅读 思考 实践
+subtitle: ⚠️版权声明：文章可以转载，但请注明文章来源：http://itanch.github.io/
 description: 南大计算机科学与技术系小学生，程序猿
 author: Tian chi
 language:
@@ -71,7 +71,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: apollo
+theme: yilia
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -93,3 +93,22 @@ archive_generator:
     yearly: false
     monthly: false
     daily: false
+
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: true
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
